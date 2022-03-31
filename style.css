@@ -1,0 +1,16 @@
+canvas{
+    background-color: aqua;
+    animation-name: cool;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes cool {
+    from{
+        box-shadow: 10px 10px 13px red;
+    }
+
+    to{
+        box-shadow: 10px 10px 13px blue;
+    }  
+}
